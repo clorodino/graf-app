@@ -10,13 +10,14 @@ import Link from 'next/link'
 import Navbar from '../components/Navbar'
 
 
+
 export default function Activities({ activities }) {
 	console.log(activities)
 
 	return (
-		<div>
-			<Navbar />
-			<main className='flex flex-col'>
+		<div className='max-w-md flex flex-col flex justify-center'>
+			<Navbar/>
+			<main className='flex flex-col max-w-md '>
 				<div className='flex justify-start bg-white py-5 px-3'>
 					<Link href='/'>
 						<a className='font-semibold text-sm my-0.5'>
