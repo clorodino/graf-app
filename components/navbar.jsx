@@ -31,19 +31,19 @@ function navbar() {
                <div className={`${ !navbarOpen ? 'hidden' : 'absolute'} list-none flex flex-col items-center bg-slate-300 opacity-90 w-screen z-10 mt-80 py-3 px-4 max-w-md inset-x-0`}>
                     <div className='flex flex-col justify-end w-max text-xl font-bold text-center'>
                          <Link passHref href="/actividades">
-                              <a type='text' className='py-2'>Actividades</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Actividades</a>
                          </Link>
                          <Link passHref href="/talleres">
-                              <a type='text' className='py-2'>Talleres</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Talleres</a>
                          </Link>
                          <Link passHref href="/mapas">
-                              <a type='text' className='py-2'>Mapas</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Mapas</a>
                          </Link>
                          <Link passHref href="/firmas">
-                              <a type='text' className='py-2'>Firmas</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Firmas</a>
                          </Link>
                          <Link passHref href="/faq">
-                              <a type='text' className='py-2'>FAQ</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>FAQ</a>
                          </Link>
                     </div>
                </div>

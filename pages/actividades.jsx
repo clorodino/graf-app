@@ -15,10 +15,11 @@ export default function Activities({ activities }) {
 	console.log(activities)
 
 	return (
-		<div className='max-w-md flex flex-col flex justify-center'>
-			<Navbar/>
-			<main className='flex flex-col max-w-md '>
-				<div className='flex justify-start bg-white py-5 px-3'>
+		<div className='max-w-md flex flex-col '>
+			<div className='fixed top-0 w-full max-w-md z-10'><Navbar /></div>
+			
+			<main className='flex flex-col max-w-md relative top-20 pb-5 bg-rose-100 min-h-screen'>
+				<div className='flex justify-start py-5 px-3'>
 					<Link href='/'>
 						<a className='font-semibold text-sm my-0.5'>
 							<FiChevronLeft className='text-2xl mr-1' />
@@ -28,17 +29,15 @@ export default function Activities({ activities }) {
 				</div>
 
 				{activities.map(({ _id, title, description, guests, imgUrl }) => (
-
-						<Link href={`/${_id}`} passHref key={_id} >
-							<div className='max-w-md rounded-lg overflow-hidden shadow-lg mt-4 mx-4' >
-								<img className='w-full' src={imgUrl} alt='' />
-								<div className='px-6 py-4 bg-white'>
-									<div className='font-bold text-xl'>{title}</div>
-									<div className='font-medium text-lg mb-1 text-slate-500'>{guests}</div>
-								</div>
+					<Link href={`/${_id}`} passHref key={_id} >
+						<div className='max-w-md rounded-lg overflow-hidden shadow-lg mt-4 mx-4' >
+							<img className='w-full' src={imgUrl} alt='' />
+							<div className='px-6 py-4 bg-white'>
+								<div className='font-bold text-xl'>{title}</div>
+								<div className='font-medium text-lg mb-1 text-slate-500'>{guests}</div>
 							</div>
-						</Link>
-
+						</div>
+					</Link>
 				))}
 			</main>
 		</div>
