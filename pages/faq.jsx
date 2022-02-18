@@ -2,7 +2,7 @@ import dbConnect from '../lib/dbConnect'
 import Faq from '../models/Faq.model'
 import { HiChevronLeft } from 'react-icons/hi'
 import Link from 'next/link'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/navbar'
 import { Collapse, Text } from '@nextui-org/react';
 
 

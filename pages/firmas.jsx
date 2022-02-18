@@ -2,7 +2,7 @@ import dbConnect from '../lib/dbConnect'
 import Signature from '../models/Signatures.model'
 import { HiChevronLeft } from 'react-icons/hi'
 import Link from 'next/link'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/navbar'
 import { HiOutlineCalendar, HiOutlineClock, HiOutlineLocationMarker } from 'react-icons/hi'
 import Image from 'next/image'
 
