@@ -5,7 +5,7 @@ import logoHome from '../public/logo_graf.svg'
 import Image from 'next/image'
 import { Button } from '@nextui-org/react'
 
-function navbar() {
+function Navbar() {
      const [navbarOpen, setNavbarOpen] = useState(false)
 
      const handleToggle = () => {
@@ -51,4 +51,4 @@ function navbar() {
      )
 }
 
-export default navbar
+export default Navbar
