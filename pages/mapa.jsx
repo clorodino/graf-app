@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar'
 
 export default function mapa() {
 	return (
-		<div>
+		<div className='bg-white'>
 			<div className='fixed top-0 w-full max-w-md z-10'>
 				<Navbar />
 			</div>

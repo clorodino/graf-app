@@ -10,12 +10,12 @@ export default function faq({ faqs }) {
     console.log(faqs)
 
 	return (
-		<div className='max-w-md flex flex-col '>
+		<div className='max-w-md flex flex-col'>
 			<div className='fixed top-0 w-full max-w-md z-10'>
 				<Navbar />
 			</div>
 
-			<main className='flex flex-col max-w-md relative top-20 pb-5 height-without-navbar'>
+			<main className='flex flex-col max-w-md relative top-20 pb-5 bg-white h-without-navbar'>
 				<div className='flex justify-start pt-5 px-3'>
 					<Link href='/'>
 						<a className='font-semibold text-sm my-0.5'>
