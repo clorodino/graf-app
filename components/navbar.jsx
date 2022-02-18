@@ -36,8 +36,8 @@ function navbar() {
                          <Link passHref href="/talleres">
                               <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Talleres</a>
                          </Link>
-                         <Link passHref href="/mapas">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Mapas</a>
+                         <Link passHref href="/mapa">
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Mapa</a>
                          </Link>
                          <Link passHref href="/firmas">
                               <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Firmas</a>

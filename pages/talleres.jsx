@@ -1,29 +1,29 @@
 import dbConnect from '../lib/dbConnect'
-import Activity from '../models/Activities.model'
+import Workshop from '../models/Workshops.model'
 import { HiChevronLeft } from "react-icons/hi";
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 
 
 
-export default function Activities({ activities }) {
+export default function Workshops({ workshops }) {
 
 	return (
 		<div className='max-w-md flex flex-col '>
 			<div className='fixed top-0 w-full max-w-md z-10'><Navbar /></div>
 			
 			<main className='flex flex-col max-w-md relative top-20 pb-5 height-without-navbar'>
-				<div className='flex justify-start pt-5 px-3'>
+            <div className='flex justify-start pt-5 px-3'>
 					<Link href='/'>
 						<a className='font-semibold text-sm my-0.5'>
 							<HiChevronLeft className='text-2xl mr-1' />
 						</a>
 					</Link>
-					<h1 className='text-xl font-medium '>Actividades</h1>
+					<h1 className='text-xl font-medium '>Talleres</h1>
 				</div>
 
-				{activities.map(({ _id, title, description, guests, imgUrl }) => (
-					<Link href={`/actividades/${_id}`} passHref key={_id} >
+				{workshops.map(({ _id, title, description, guests, imgUrl }) => (
+					<Link href={`/talleres/${_id}`} passHref key={_id} >
 						<div className='max-w-md rounded-lg overflow-hidden shadow-lg mt-4 mx-4' >
                             <div className='h-44 overflow-hidden'>
     							<img className='w-full object-contain' src={imgUrl} alt={`taller: ${title}`} />
@@ -44,13 +44,13 @@ export async function getServerSideProps() {
 	try {
 		await dbConnect()
 
-		const res = await Activity.find({})
-		const activities = res.map(el => {
-			const activity = el.toObject()
-			activity._id = `${activity._id}`
-			return activity
+		const res = await Workshop.find({})
+		const workshops = res.map(el => {
+			const workshop = el.toObject()
+			workshop._id = `${workshop._id}`
+			return workshop
 		})
-		return { props: { activities } }
+		return { props: { workshops } }
 	} catch (error) {
 		console.log(error)
 	}

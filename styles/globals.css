@@ -24,3 +24,10 @@ a {
      color: #94a3b8;
 }
 
+.height-without-navbar{
+     min-height: calc(100vh - 5rem);
+}
+
+.h-home-card{
+     min-height: calc(100vh - 124px);
+}
