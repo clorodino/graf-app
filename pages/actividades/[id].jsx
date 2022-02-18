@@ -1,7 +1,7 @@
 import React from 'react'
 import dbConnect from '../../lib/dbConnect'
 import Activity from '../../models/Activities.model'
-import Navbar from '../../components/Navbar'
+import Navbar from '../Navbar'
 import Link from 'next/link'
 import { HiOutlineLocationMarker, HiOutlineClock, HiOutlineCalendar, HiChevronLeft } from "react-icons/hi";
 import Image from 'next/image'
