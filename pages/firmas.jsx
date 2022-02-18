@@ -7,6 +7,7 @@ import { HiOutlineCalendar, HiOutlineClock, HiOutlineLocationMarker } from 'reac
 
 export default function Firmas({ firmas }) {
 	const day = { weekday: 'long', month: 'long', day: 'numeric', minimumIntegerDigits: 2 }
+	const sortedSignatures = firmas.slice().sort((a, b) => a.date - b.date)
 
 	return (
 		<div className='max-w-md flex flex-col '>
@@ -24,7 +25,7 @@ export default function Firmas({ firmas }) {
 					<h1 className='text-xl font-medium '>Firmas</h1>
 				</div>
 
-				{firmas.map(firma => (
+				{sortedSignatures.map(firma => (
 					<div key={firma._id} className='max-w-md overflow-hidden mt-5 mx-4 pb-2 flex border-b-2 border-slate-300'>
 						<div>
 							<img className='rounded-full w-24 h-24 object-cover' src={firma.imgUrl} alt={`taller: ${firma.title}`} />

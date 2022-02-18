@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar'
 
 
 export default function Activities({ activities }) {
+	const sortedActivities = activities.slice().sort((a, b) => a.date - b.date)
 
 	return (
 		<div className='max-w-md flex flex-col '>
@@ -22,7 +23,7 @@ export default function Activities({ activities }) {
 					<h1 className='text-xl font-medium '>Actividades</h1>
 				</div>
 
-				{activities.map(({ _id, title, description, guests, imgUrl }) => (
+				{sortedActivities.map(({ _id, title, description, guests, imgUrl }) => (
 					<Link href={`/actividades/${_id}`} passHref key={_id} >
 						<div className='max-w-md rounded-lg overflow-hidden shadow-lg mt-4 mx-4' >
                             <div className='h-44 overflow-hidden'>
