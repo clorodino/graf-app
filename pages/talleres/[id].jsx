@@ -23,7 +23,7 @@ export default function Taller({taller}) {
          <img src={taller.imgUrl} alt={taller.title} />
         <div className="px-5 py-4">
             <div className="font-bold text-2xl mb-2">{taller.title}</div>
-            <div className="font-semibold text-xl text-slate-500 mb-2">con {taller.guests}</div>
+            <div className="font-semibold text-xl text-slate-500 mb-2">con {taller.teacher}</div>
             <div className='flex justify-between pt-3'>
               <div className='flex items-center'>
                 <HiOutlineCalendar className='color-icons'/>
@@ -37,6 +37,14 @@ export default function Taller({taller}) {
                 <HiOutlineLocationMarker className='color-icons'/>
                 <p className="text-sm text-slate-400 font-medium mx-1">{taller.location}</p>
               </div>
+            </div>
+            <div className='pt-4 flex justify-between items-center'>
+              {taller.price === 0 ? <div></div> :  <div className='text-lg font-bold text-slate-500'>Precio: {taller.price} €</div>}
+             
+              {!taller.full && <Link passHref href={`mailto:${taller.email}`}>
+                <button className='bg-slate-300 py-2 px-6 rounded-full font-bold'>Inscribirme</button>
+              </Link>}
+              
             </div>
             <hr className='my-5 border border-slate-300' />
 

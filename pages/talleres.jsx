@@ -23,15 +23,15 @@ export default function Workshops({ workshops }) {
 					<h1 className='text-xl font-medium '>Talleres</h1>
 				</div>
 
-				{sortedWorkshops.map(({ _id, title, description, guests, imgUrl }) => (
+				{sortedWorkshops.map(({ _id, title, description, teacher, imgUrl }) => (
 					<Link href={`/talleres/${_id}`} passHref key={_id} >
 						<div className='max-w-md rounded-lg overflow-hidden shadow-lg mt-4 mx-4' >
-                            <div className='h-44 overflow-hidden'>
+                            <div className='h-64 overflow-hidden'>
     							<img className='w-full object-contain' src={imgUrl} alt={`taller: ${title}`} />
                             </div>
 							<div className='px-6 py-4 bg-white'>
 								<div className='font-bold text-xl'>{title}</div>
-								<div className='font-medium text-lg mb-1 text-slate-500'>con {guests}</div>
+								<div className='font-medium text-lg mb-1 text-slate-500'>con {teacher}</div>
 							</div>
 						</div>
 					</Link>

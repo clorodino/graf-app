@@ -8,6 +8,7 @@ import Navbar from '../components/Navbar'
 
 export default function Activities({ activities }) {
 	const sortedActivities = activities.slice().sort((a, b) => a.date - b.date)
+	console.log(sortedActivities)
 
 	return (
 		<div className='max-w-md flex flex-col '>
@@ -26,7 +27,7 @@ export default function Activities({ activities }) {
 				{sortedActivities.map(({ _id, title, description, guests, imgUrl }) => (
 					<Link href={`/actividades/${_id}`} passHref key={_id} >
 						<div className='max-w-md rounded-lg overflow-hidden shadow-lg mt-4 mx-4' >
-                            <div className='h-44 overflow-hidden'>
+                            <div className='h-64 overflow-hidden'>
     							<img className='w-full object-contain' src={imgUrl} alt={`taller: ${title}`} />
                             </div>
 							<div className='px-6 py-4 bg-white'>

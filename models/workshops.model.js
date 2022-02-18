@@ -10,6 +10,7 @@ const WorkshopSchema = new mongoose.Schema({
 	imgUrl: { type: String },
 	price: { type: Number },
 	full: { type: Boolean },
+	email: {type: String}
 })
 
 export default mongoose.models.Workshop || mongoose.model('Workshop', WorkshopSchema)
