@@ -3,6 +3,7 @@ import Workshop from '../models/Workshops.model'
 import { HiChevronLeft } from "react-icons/hi";
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import Image from 'next/image'
 
 
 

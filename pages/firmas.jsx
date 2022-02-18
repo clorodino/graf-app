@@ -4,6 +4,7 @@ import { HiChevronLeft } from 'react-icons/hi'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import { HiOutlineCalendar, HiOutlineClock, HiOutlineLocationMarker } from 'react-icons/hi'
+import Image from 'next/image'
 
 export default function Firmas({ firmas }) {
 	const day = { weekday: 'long', month: 'long', day: 'numeric', minimumIntegerDigits: 2 }
