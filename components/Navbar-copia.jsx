@@ -3,9 +3,10 @@ import Link from 'next/link'
 import { HiOutlineMenu } from 'react-icons/hi'
 import logoHome from '../public/logo_graf.svg'
 import Image from 'next/image'
+import { Button } from '@nextui-org/react'
 
-export default function Navbar() {
-    const [navbarOpen, setNavbarOpen] = useState(false)
+function Navbar() {
+     const [navbarOpen, setNavbarOpen] = useState(false)
 
      const handleToggle = () => {
           setNavbarOpen(!navbarOpen)
@@ -49,3 +50,5 @@ export default function Navbar() {
           </nav>
      )
 }
+
+export default Navbar

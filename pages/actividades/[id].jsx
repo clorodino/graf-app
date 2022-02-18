@@ -15,7 +15,7 @@ export default function Actividad({activity}) {
     <div>
       
         <div className='fixed top-0 w-full max-w-md z-10'><Navbar /></div>
-        <div className="max-w-md flex flex-col relative top-20 mb-8 bg-white height-without-navbar ">
+        <div className="max-w-md flex flex-col relative top-20 mb-8 bg-white h-without-navbar ">
           <Link href='/actividades'>
             <a className='font-semibold text-sm my-0.5 p-3'>
               <HiChevronLeft className='text-2xl mr-1' />
