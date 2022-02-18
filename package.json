@@ -20,11 +20,15 @@
     "superjson": "^1.8.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
     "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
     "nodemon": "^2.0.15",
     "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.22"
+    "tailwindcss": "^3.0.22",
+    "webpack": "^5.69.1"
   }
 }
