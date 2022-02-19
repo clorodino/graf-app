@@ -4,6 +4,7 @@ import Workshop from '../../models/Workshops.model'
 import Navbar from '../../components/navbar'
 import Link from 'next/link'
 import { HiOutlineLocationMarker, HiOutlineClock, HiOutlineCalendar, HiChevronLeft } from "react-icons/hi";
+import { IoIosArrowBack } from "react-icons/io";
 import Image from 'next/image'
 
 export default function Taller({taller}) {
@@ -17,15 +18,15 @@ export default function Taller({taller}) {
         <div className='fixed top-0 w-full max-w-md z-10'><Navbar /></div>
         <div className="max-w-md overflow-hidden flex flex-col relative top-20 mb-8 bg-white h-without-navbar ">
           <Link href='/talleres'>
-            <a className='font-semibold text-sm my-0.5 p-3'>
-              <HiChevronLeft className='text-2xl mr-1' />
+            <a className='font-semibold text-sm my-1 py-4 ml-2'>
+              <IoIosArrowBack className='text-3xl' />
             </a>
           </Link>
          <img src={taller.imgUrl} alt={taller.title} />
         <div className="px-5 py-4">
             <div className="font-bold text-2xl mb-2">{taller.title}</div>
             <div className="font-semibold text-xl text-slate-500 mb-2">con {taller.teacher}</div>
-            <div className='flex justify-between pt-3'>
+            <div className='flex  justify-between pt-3'>
               <div className='flex items-center'>
                 <HiOutlineCalendar className='color-icons'/>
                 <p className="text-sm text-slate-400 font-medium mx-1">{taller.date.toLocaleDateString('es-ES', day)}</p>

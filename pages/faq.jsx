@@ -1,6 +1,7 @@
 import dbConnect from '../lib/dbConnect'
 import Faq from '../models/Faq.model'
 import { HiChevronLeft } from 'react-icons/hi'
+import { IoIosArrowBack } from "react-icons/io";
 import Link from 'next/link'
 import Navbar from '../components/navbar'
 import { Collapse, Text } from '@nextui-org/react';
@@ -16,14 +17,14 @@ export default function faq({ faqs }) {
 			</div>
 
 			<main className='flex flex-col max-w-md relative top-20 pb-5 bg-white h-without-navbar'>
-				<div className='flex justify-start pt-5 px-3'>
-					<Link href='/'>
-						<a className='font-semibold text-sm my-0.5'>
-							<HiChevronLeft className='text-2xl mr-1' />
-						</a>
-					</Link>
-					<h1 className='text-xl font-medium '>FAQ</h1>
+				<div className='flex justify-center items-center pt-5 px-3 w-full'>
+					<h1 className='text-2xl font-medium '>FAQ</h1>
 				</div>
+				<Link href='/'>
+						<a className='font-semibold text-sm my-0.5 absolute top-5'>
+							<IoIosArrowBack className='text-3xl ml-2' />
+						</a>
+				</Link>
 				<Collapse.Group>
 				{faqs.map(faq => (
 					<div key={faq._id} className='max-w-md overflow-hidden mt-4 mx-4 pb-2 flex flex-col border-b-2 border-slate-300'>

@@ -32,7 +32,7 @@ export default function index() {
 								{item.title} 
 							</Text>
 						</Card> */}
-						<div key={item.title} className='bg-slate-300 text-xl font-bold rounded-lg mb-5 py-5 grow h-full flex justify-center items-center shadow-lg'>
+						<div key={item.title} className='bg-slate-300 text-xl font-bold rounded-lg mb-5 py-5 grow h-full flex justify-center items-center shadow-lg cursor-pointer'>
 							{item.title}
 						</div>
 					</Link>

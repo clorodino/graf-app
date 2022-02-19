@@ -4,6 +4,7 @@ import Activity from '../../models/Activities.model'
 import Navbar from '../../components/navbar'
 import Link from 'next/link'
 import { HiOutlineLocationMarker, HiOutlineClock, HiOutlineCalendar, HiChevronLeft } from "react-icons/hi";
+import { IoIosArrowBack } from "react-icons/io";
 import Image from 'next/image'
 
 export default function Actividad({activity}) {
@@ -17,9 +18,10 @@ export default function Actividad({activity}) {
         <div className='fixed top-0 w-full max-w-md z-10'><Navbar /></div>
         <div className="max-w-md flex flex-col relative top-20 mb-8 bg-white h-without-navbar ">
           <Link href='/actividades'>
-            <a className='font-semibold text-sm my-0.5 p-3'>
-              <HiChevronLeft className='text-2xl mr-1' />
+            <a className='font-semibold text-sm my-1 py-4 ml-2'>
+              <IoIosArrowBack className='text-3xl' />
             </a>
+            
           </Link>
          <img src={activity.imgUrl} alt={activity.title} />
         <div className="px-5 py-4">
