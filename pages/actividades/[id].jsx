@@ -28,17 +28,17 @@ export default function Actividad({activity}) {
             <div className="font-bold text-2xl mb-2">{activity.title}</div>
             <div className="font-semibold text-xl text-slate-500 mb-2">con {activity.guests}</div>
             <div className='flex justify-between pt-3'>
-              <div className='flex items-center'>
-                <HiOutlineCalendar className='color-icons'/>
-                <p className="text-sm text-slate-400 font-medium mx-1">{activity.date.toLocaleDateString('es-ES', day)}</p>
+              <div className='flex items-start'>
+                <HiOutlineCalendar className='color-icons mt-0.5'/>
+                <p className="text-sm text-slate-400 font-medium mx-1">{activity.date.toLocaleDateString('es-ES')}</p>
               </div>
-              <div className='flex items-center'>
-                <HiOutlineClock className='color-icons'/>
+              <div className='flex items-start'>
+                <HiOutlineClock className='color-icons mt-0.5'/>
                 <p className="text-sm text-slate-400 font-medium mx-1">{hour}</p>
               </div>
-              <div className='flex items-center'>
-                <HiOutlineLocationMarker className='color-icons'/>
-                <p className="text-sm text-slate-400 font-medium mx-1">{activity.location}</p>
+              <div className='flex items-start'>
+                <HiOutlineLocationMarker className='color-icons mt-0.5'/>
+                <p className="text-sm text-slate-400 font-medium mx-1 w-28 self-start">{activity.location}</p>
               </div>
             </div>
             <hr className='my-5 border border-slate-300' />

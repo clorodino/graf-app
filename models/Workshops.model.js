@@ -7,6 +7,7 @@ const WorkshopSchema = new mongoose.Schema({
 	hour: { type: Date },
 	location: { type: String },
 	description: { type: String },
+	imgUrlPort: { type: String },
 	imgUrl: { type: String },
 	price: { type: Number },
 	full: { type: Boolean },

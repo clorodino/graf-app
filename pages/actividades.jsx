@@ -10,7 +10,6 @@ import Image from 'next/image'
 
 export default function Activities({ activities }) {
 	const sortedActivities = activities.slice().sort((a, b) => a.date - b.date)
-	console.log(sortedActivities)
 
 	return (
 		<div className='max-w-md flex flex-col'>
@@ -26,11 +25,11 @@ export default function Activities({ activities }) {
 						</a>
 				</Link>
 
-				{sortedActivities.map(({ _id, title, description, guests, imgUrl }) => (
+				{sortedActivities.map(({ _id, title, description, guests, imgUrlPort }) => (
 					<Link href={`/actividades/${_id}`} passHref key={_id} >
 						<div className='max-w-md rounded-lg overflow-hidden shadow-lg mt-4 mx-4' >
                             <div className='h-64 overflow-hidden'>
-    							<img className='w-full object-contain' src={imgUrl} alt={`taller: ${title}`} />
+    							<img className='w-full object-contain' src={imgUrlPort} alt={`taller: ${title}`} />
                             </div>
 							<div className='px-6 py-4 bg-white'>
 								<div className='font-bold text-xl'>{title}</div>

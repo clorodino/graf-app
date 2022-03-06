@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "620f224df4d9f07e00a40c3f"
+  },
+  "title": "Bucles y andamios",
+  "teacher": "Marta Cartu",
+  "location": "Por confirmar",
+  "description": "Taller de cómic para reflexionar sobre la relación entre narrativa y composición desde una mirada experimental.\n\nCrearemos una breve historia que funcione en bucle, y la materializaremos en formato pegatinas, para jugar con la dimensión de construcción, orden y canal. ",
+  "imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592465/graf/workshops/bucles-andamios-port_tynx9j.jpg",
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592465/graf/workshops/bucles-andamios_jxgiwc.jpg",
+  "price": 0,
+  "full": true,
+  "email": "marta.cartu@gmail.com",
+  "date": {
+    "$date": "2022-03-12T11:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "620f2261f4d9f07e00a40c40"
+  },
+  "title": "CASA_cómic",
+  "teacher": "Ivan Mcgill",
+  "location": "Por confirmar",
+  "description": "Construcción de un cómic explorando todas las posibilidades materiales y escultóricas del papel.\nEste cómic estará formado de páginas, de ventanas, pestañas, tiras, pliegues, acordeones, bucles...\n\nCada asistente construirá un ejemplar único, con una historia orquestada por su propio formato.",
+  "imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592465/graf/workshops/casa_comic-port_fbqyyj.jpg",
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592465/graf/workshops/casa_comic_y1l5kh.jpg",
+  "price": 10,
+  "full": false,
+  "email": "ivan.mcgill@gmail.com",
+  "date": {
+    "$date": "2022-03-13T15:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "620f226ef4d9f07e00a40c41"
+  },
+  "title": "Sinestesia e historieta",
+  "teacher": "Sole Otero",
+  "location": "Por confirmar",
+  "description": "En este taller analizaremos las conexiones sensitivas, individuales y sociales, y cómo tomar ventaja de ellas para agregarle más recursos a nuestros comics.",
+  "imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592466/graf/workshops/sinestesia-port_gcntcb.jpg",
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592466/graf/workshops/sinestesia_bgu0yb.jpg",
+  "price": 10,
+  "full": true,
+  "email": "solina.otero@gmail.com",
+  "date": {
+    "$date": "2022-03-12T14:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "620f227bf4d9f07e00a40c42"
+  },
+  "title": "Derechos básicos de los trabajadores del diseño y de la ilustración",
+  "teacher": "el SEGAL",
+  "location": "Por confirmar",
+  "description": "Formación básica sobre cuáles son los derechos que tenemos, tanto para el trabajo asalariado como en régimen de autónomos y qué formas tenemos de defendernos de la explotación y los abusos.",
+  "imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592465/graf/workshops/segap-port_uz9c8p.jpg",
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592466/graf/workshops/segap_rmeunq.jpg",
+  "price": 0,
+  "full": false,
+  "email": "segap-bcn@cgtcatalunya.cat",
+  "date": {
+    "$date": "2022-03-13T11:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "620f227bf4d9f07e00a40c43"
+  },
+  "title": "Tarot ilustrado: arcanos mayores",
+  "teacher": "Chema Peral",
+  "location": "Por confirmar",
+  "description": "Haz tu propio mazo. Aprende a leerlo. Haz tus tiradas.",
+  "imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592466/graf/workshops/tarot-ilustrado-port_linxdf.jpg",
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592466/graf/workshops/tarot-ilustrado_b08fri.jpg",
+  "price": 15,
+  "full": true,
+  "email": "chemaperaljimenez@gmail.com",
+  "date": {
+    "$date": "2022-03-13T15:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "620f227bf4d9f07e00a40c44"
+  },
+  "title": "Trucos y trampas para pensar historietas",
+  "teacher": "Mariano Pardo",
+  "location": "Por confirmar",
+  "description": "Taller de creación narrativa impartido por Mariano Pardo donde se abordarán técnicas y estructuras para idear narrativa dibujada.",
+  "imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592466/graf/workshops/trucos-trampas-port_grwoty.jpg",
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592466/graf/workshops/trucos-trampas_nxoyg4.jpg",
+  "price": 10,
+  "full": false,
+  "email": "marianopardo.gif@gmail.com",
+  "date": {
+    "$date": "2022-03-12T15:30:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "620f227bf4d9f07e00a40c45"
+  },
+  "title": "Romper la narrativa",
+  "teacher": "Higinia Garay aka Vandis",
+  "location": "Por confirmar",
+  "description": "Afrontaremos un encargo de ilustración abordando la temática desde diferentes perspectivas. El propósito es alejarnos así de una narración convencional, re-apropiandonos de los tópicos a nuestra manera.",
+  "imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592465/graf/workshops/romper-narrativa-port_xreqic.jpg",
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646592466/graf/workshops/romper-narrativa_gx4hrb.jpg",
+  "price": 15,
+  "full": true,
+  "email": "hola@higinia.com",
+  "date": {
+    "$date": "2022-03-13T11:30:00Z"
+  }
+}]

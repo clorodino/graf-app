@@ -1,0 +1,457 @@
+[
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc01" },
+		"author": "Alex Graham",
+		"stand": "Fulgencio Pimentel",
+		"date": { "$date": "2022-03-12T12:30:00Z" },
+		"imgUrl": "https://fourcolorapocalypse.files.wordpress.com/2021/03/meagain.jpg?w=581"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc02" },
+		"author": "Alex Graham",
+		"stand": "Fulgencio Pimentel",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://fourcolorapocalypse.files.wordpress.com/2021/03/meagain.jpg?w=581"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc03" },
+		"author": "Alex Graham",
+		"stand": "Fulgencio Pimentel",
+		"date": { "$date": "2022-03-13T12:30:00Z" },
+		"imgUrl": "https://fourcolorapocalypse.files.wordpress.com/2021/03/meagain.jpg?w=581"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc04" },
+		"author": "Alex Graham",
+		"stand": "Fulgencio Pimentel",
+		"date": { "$date": "2022-03-13T18:00:00Z" },
+		"imgUrl": "https://fourcolorapocalypse.files.wordpress.com/2021/03/meagain.jpg?w=581"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc05" },
+		"author": "Louka Butzbach",
+		"stand": "Fulgencio Pimentel",
+		"date": { "$date": "2022-03-12T12:30:00Z" },
+		"imgUrl": "https://www.livre-provencealpescotedazur.fr/public_data/acteurs/5002_043_16697373681-17021206580_043_5002.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc06" },
+		"author": "Louka Butzbach",
+		"stand": "Fulgencio Pimentel",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://www.livre-provencealpescotedazur.fr/public_data/acteurs/5002_043_16697373681-17021206580_043_5002.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc07" },
+		"author": "Louka Butzbach",
+		"stand": "Fulgencio Pimentel",
+		"date": { "$date": "2022-03-13T12:30:00Z" },
+		"imgUrl": "https://www.livre-provencealpescotedazur.fr/public_data/acteurs/5002_043_16697373681-17021206580_043_5002.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc08" },
+		"author": "Louka Butzbach",
+		"stand": "Fulgencio Pimentel",
+		"date": { "$date": "2022-03-13T18:00:00Z" },
+		"imgUrl": "https://www.livre-provencealpescotedazur.fr/public_data/acteurs/5002_043_16697373681-17021206580_043_5002.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc09" },
+		"author": "Xulia Vicente",
+		"stand": "Hits with tits",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://www.lacupula.com/wp-content/uploads/2017/10/Foto-Xulia-Vicente.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc10" },
+		"author": "Agustín Comotto",
+		"stand": "Contexto",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://www.rayoverde.es/wp-content/uploads/2019/07/agusti%CC%81n-comotto_web.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc11" },
+		"author": "Montse Mazorriga",
+		"stand": "Garbuix",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://www.saloncomicvalencia.com/wp-content/uploads/2020/02/MontseMazorriaga.png"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc12" },
+		"author": "Eduardo Sabio",
+		"stand": "Sapristi",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://www.rocalibros.com/archivos/imagenes/grandes/5384.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc13" },
+		"author": "Bárbara Alca",
+		"stand": "Sapristi",
+		"date": { "$date": "2022-03-12T19:00:00Z" },
+		"imgUrl": "https://uh.gsstatic.es/sfAttachPlugin/1186305.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc14" },
+		"author": "Nadia Hafid",
+		"stand": "Sapristi",
+		"date": { "$date": "2022-03-13T12:00:00Z" },
+		"imgUrl": "https://www.saloncomiczaragoza.com/files/items/thumbs/4887.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc15" },
+		"author": "Genie Espinosa",
+		"stand": "Sapristi",
+		"date": { "$date": "2022-03-13T13:00:00Z" },
+		"imgUrl": "https://www.tebeosfera.com/T3content/img/T3_autores/i/e/espinosa_genie.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc16" },
+		"author": "Elizabeth Casillas",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T12:00:00Z" },
+		"imgUrl": "https://www.tebeosfera.com/T3content/img/T3_autores/e/d/untitled.png"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc17" },
+		"author": "Higinia Garay",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T12:00:00Z" },
+		"imgUrl": "http://annalemma.net/wp-content/uploads/2010/04/foto.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc18" },
+		"author": "Albert Monteys",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T13:00:00Z" },
+		"imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Albert_Monteys._Sal%C3%B3_del_C%C3%B2mic_de_Barcelona_2018.jpg/1200px-Albert_Monteys._Sal%C3%B3_del_C%C3%B2mic_de_Barcelona_2018.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc19" },
+		"author": "Laura Pérez",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T13:00:00Z" },
+		"imgUrl": "https://www.naiz.eus/media/asset_publics/resources/000/828/196/original/laura.JPG"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc20" },
+		"author": "Josune Urrutia",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T17:00:00Z" },
+		"imgUrl": "https://img.txalaparta.eus/Autores/6492_Josune-Urrutia-Asua.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc21" },
+		"author": "Luis Bustos",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T17:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/242/author/LuisBustos.jpg?1440669985"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc22" },
+		"author": "Laura Pérez",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://www.naiz.eus/media/asset_publics/resources/000/828/196/original/laura.JPG"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc23" },
+		"author": "Mariano Pardo",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://mir-s3-cdn-cf.behance.net/user/276/e66e24470639815.5e3d351b5a591.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc24" },
+		"author": "Javier Olivares",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T19:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/204/author/JavierOlivares.jpg?1434040008"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc25" },
+		"author": "Lola Lorente",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T19:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/172/author/LolaLorente.jpg?1435333677"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc26" },
+		"author": "Lorenzo Montatore",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-12T20:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/400/author/fotobio_%281%29.jpg?1626679943"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc27" },
+		"author": "Mery Cuesta",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T11:00:00Z" },
+		"imgUrl": "https://www.cccb.org/rcs_gene/Mery-Cuesta.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc28" },
+		"author": "Lorenzo Montatore",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T11:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/400/author/fotobio_%281%29.jpg?1626679943"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc29" },
+		"author": "Marcos Prior",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T12:00:00Z" },
+		"imgUrl": "https://www.lacupula.com/wp-content/uploads/2017/10/Foto-Marcos-Prior-281x500.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc30" },
+		"author": "Gustavo Rico",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T12:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/378/author/Gustavo_Rico.jpg.jpg?1610385623"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc31" },
+		"author": "Javier Olivares",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T13:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/204/author/JavierOlivares.jpg?1434040008"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc32" },
+		"author": "Elisa Riera",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T13:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/326/author/ElisaRiera.jpg?1640608499"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc33" },
+		"author": "Elizabeth Casillas",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T16:00:00Z" },
+		"imgUrl": "https://www.tebeosfera.com/T3content/img/T3_autores/e/d/untitled.png"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc34" },
+		"author": "Higinia Garay",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T16:00:00Z" },
+		"imgUrl": "http://annalemma.net/wp-content/uploads/2010/04/foto.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc35" },
+		"author": "Mariano Pardo",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T17:00:00Z" },
+		"imgUrl": "https://mir-s3-cdn-cf.behance.net/user/276/e66e24470639815.5e3d351b5a591.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc36" },
+		"author": "Lola Lorente",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T17:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/172/author/LolaLorente.jpg?1435333677"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc37" },
+		"author": "Josune Urrutia",
+		"stand": "Astiberri",
+		"date": { "$date": "2022-03-13T18:00:00Z" },
+		"imgUrl": "https://img.txalaparta.eus/Autores/6492_Josune-Urrutia-Asua.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc38" },
+		"author": "Kap",
+		"stand": "Pagès- Doble tinta",
+		"date": { "$date": "2022-03-12T12:00:00Z" },
+		"imgUrl": "https://www.tebeosfera.com/T3content/img/T3_autores/a/p/YOXB-kap.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc39" },
+		"author": "Clara-Tanit Arqué",
+		"stand": "Pagès- Doble tinta",
+		"date": { "$date": "2022-03-12T19:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/91/author/Clara_Tanit.jpg?1435766377"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc40" },
+		"author": "Lorena Rivega",
+		"stand": "Pagès- Doble tinta",
+		"date": { "$date": "2022-03-12T19:00:00Z" },
+		"imgUrl": "https://mir-s3-cdn-cf.behance.net/projects/404/a0f84892682065.Y3JvcCwxNDAwLDEwOTUsMCwzNjM.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc41" },
+		"author": "Alba Feito",
+		"stand": "Pagès- Doble tinta",
+		"date": { "$date": "2022-03-13T12:00:00Z" },
+		"imgUrl": "https://cms.tabakalera.eus/sites/default/files/styles/breakpoint_31360/public/2021-11/albafeito_800.jpg?itok=SbS2kMas"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc42" },
+		"author": "Isabel Vila",
+		"stand": "Pagès- Doble tinta",
+		"date": { "$date": "2022-03-13T12:00:00Z" },
+		"imgUrl": "https://i.pinimg.com/280x280_RS/6b/1a/dc/6b1adc4b49bc8e5b3446eed9300f01c3.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc43" },
+		"author": "Alfons López",
+		"stand": "-",
+		"date": { "$date": "2022-03-13T13:00:00Z" },
+		"imgUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Alfons_L%C3%B3pez._Barcelona_International_Comic_Fair_2017.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc44" },
+		"author": "Pepe Gálvez",
+		"stand": "-",
+		"date": { "$date": "2022-03-13T13:00:00Z" },
+		"imgUrl": "https://www.astiberri.com/uploads/authors/272/author/PepeGalvez.jpg?1478266230"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc45" },
+		"author": "Jacint Casademont",
+		"stand": "Underbrain",
+		"date": { "$date": "2022-03-12T12:00:00Z" },
+		"imgUrl": "https://www.elpuntavui.cat/imatges/60/12/alta/780_0008_6012073_1d08fc7abf00d6ba7ac71e0c0a22767f.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc46" },
+		"author": "Jaume Fibla",
+		"stand": "Underbrain",
+		"date": { "$date": "2022-03-12T12:00:00Z" },
+		"imgUrl": "https://qph.fs.quoracdn.net/main-thumb-13930585-200-4I7cbi7zTk9rfcmGKTWBB2nQNSkxMj6Q.jpeg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc47" },
+		"author": "Ramón Salas",
+		"stand": "Underbrain",
+		"date": { "$date": "2022-03-12T12:00:00Z" },
+		"imgUrl": "https://www.milenio.com/uploads/media/2020/02/24/festival-comic-3.jpeg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc48" },
+		"author": "Bouman",
+		"stand": "Underbrain",
+		"date": { "$date": "2022-03-12T12:00:00Z" },
+		"imgUrl": "https://i1.wp.com/boumanstudios.com/blog/wp-content/uploads/bouman-premio-2017.jpg?resize=620%2C413&ssl=1"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc49" },
+		"author": "Enuji",
+		"stand": "Underbrain",
+		"date": { "$date": "2022-03-12T17:00:00Z" },
+		"imgUrl": "https://i1.whakoom.com/large/37/21/2d2cb2cf9dfa4c06b642d38fb3ef90ec.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc50" },
+		"author": "Ernesto R. C.",
+		"stand": "Underbrain",
+		"date": { "$date": "2022-03-12T17:00:00Z" },
+		"imgUrl": "https://mir-s3-cdn-cf.behance.net/user/115/22c77733500993.5f61c9bb4da16.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc51" },
+		"author": "Jaume Fibla",
+		"stand": "Underbrain",
+		"date": { "$date": "2022-03-12T17:00:00Z" },
+		"imgUrl": "https://qph.fs.quoracdn.net/main-thumb-13930585-200-4I7cbi7zTk9rfcmGKTWBB2nQNSkxMj6Q.jpeg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc52" },
+		"author": "Sara Bea",
+		"stand": "Underbrain",
+		"date": { "$date": "2022-03-12T17:00:00Z" },
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646554388/graf/Sara_Bea_bljagc.png"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc53" },
+		"author": "Jaume Fibla",
+		"stand": "-",
+		"date": { "$date": "2022-03-13T17:00:00Z" },
+		"imgUrl": "https://qph.fs.quoracdn.net/main-thumb-13930585-200-4I7cbi7zTk9rfcmGKTWBB2nQNSkxMj6Q.jpeg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc54" },
+		"author": "Bouman",
+		"stand": "-",
+		"date": { "$date": "2022-03-13T17:00:00Z" },
+		"imgUrl": "https://i1.wp.com/boumanstudios.com/blog/wp-content/uploads/bouman-premio-2017.jpg?resize=620%2C413&ssl=1"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc55" },
+		"author": "Adrián Bago",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-12T12:00:00Z" },
+		"imgUrl": "https://alicanteplaza.es/public/Image/2017/2/adrian-bago_1_NoticiaAmpliada.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc56" },
+		"author": "Irene Márquez",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-12T13:00:00Z" },
+		"imgUrl": "https://www.granadahoy.com/2020/05/16/ocio/Intento-cierta-groseria-gamberrada-chiste_1465064158_121480053_667x375.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc57" },
+		"author": "Furillo",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-12T17:00:00Z" },
+		"imgUrl": "http://choppermonster.com/wp-content/uploads/2018/06/fotoFUrillo.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc58" },
+		"author": "Don Rogelio",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "http://1.bp.blogspot.com/-groj7yv94Jw/UaHYID479pI/AAAAAAAAG7Q/rl0NRvLtrsg/s400/don+rogelio+j.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc59" },
+		"author": "Victor Dunkel",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-12T18:00:00Z" },
+		"imgUrl": "https://www.tebeosfera.com/T3content/img/T3_autores/e/l/victor_dvnkel.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc60" },
+		"author": "Irene Márquez",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-12T19:00:00Z" },
+		"imgUrl": "https://www.granadahoy.com/2020/05/16/ocio/Intento-cierta-groseria-gamberrada-chiste_1465064158_121480053_667x375.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc61" },
+		"author": "Adrián Bago",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-12T19:00:00Z" },
+		"imgUrl": "https://alicanteplaza.es/public/Image/2017/2/adrian-bago_1_NoticiaAmpliada.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc62" },
+		"author": "Furillo",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-13T12:00:00Z" },
+		"imgUrl": "http://choppermonster.com/wp-content/uploads/2018/06/fotoFUrillo.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc63" },
+		"author": "Irene Márquez",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-13T12:00:00Z" },
+		"imgUrl": "https://www.granadahoy.com/2020/05/16/ocio/Intento-cierta-groseria-gamberrada-chiste_1465064158_121480053_667x375.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc64" },
+		"author": "Adrián Bago",
+		"stand": "Autsaider",
+		"date": { "$date": "2022-03-13T13:00:00Z" },
+		"imgUrl": "https://alicanteplaza.es/public/Image/2017/2/adrian-bago_1_NoticiaAmpliada.jpg"
+	},
+	{
+		"_id": { "$oid": "620e6ee51190a45e953bcc65" },
+		"author": "Lluïsot",
+		"stand": "-",
+		"date": { "$date": "2022-03-13T09:00:00Z" },
+		"imgUrl": "https://www.abuenpaso.com/wp-content/uploads/2020/03/Lluisot.jpg"
+	}
+]

@@ -4,7 +4,9 @@ module.exports = {
     './components/**/*.{html,js,jsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      grafPink: '#F7BBC9',
+    },
   },
   plugins: [],
 }

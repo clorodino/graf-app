@@ -8,6 +8,7 @@ const ActivitySchema = new mongoose.Schema({
 	location: { type: String },
 	description: { type: String },
 	imgUrl: { type: String },
+	imgUrlPort: { type: String }
 })
 
 export default mongoose.models.Activity || mongoose.model('Activity', ActivitySchema)

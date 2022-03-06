@@ -29,7 +29,7 @@ export default function Taller({taller}) {
             <div className='flex  justify-between pt-3'>
               <div className='flex items-center'>
                 <HiOutlineCalendar className='color-icons'/>
-                <p className="text-sm text-slate-400 font-medium mx-1">{taller.date.toLocaleDateString('es-ES', day)}</p>
+                <p className="text-sm text-slate-400 font-medium mx-1">{taller.date.toLocaleDateString('es-ES')}</p>
               </div>
               <div className='flex items-center'>
                 <HiOutlineClock className='color-icons'/>
@@ -43,9 +43,9 @@ export default function Taller({taller}) {
             <div className='pt-4 flex justify-between items-center'>
               {taller.price === 0 ? <div></div> :  <div className='text-lg font-bold text-slate-500'>Precio: {taller.price} €</div>}
              
-              {!taller.full && <Link passHref href={`mailto:${taller.email}`}>
+              {!taller.full ? (<Link passHref href={`mailto:${taller.email}`}>
                 <button className='bg-slate-300 py-2 px-6 rounded-full font-bold'>Inscribirme</button>
-              </Link>}
+              </Link>) : <button className='text-red-500 py-2 px-6 rounded-full font-bold'>Completo</button>}
               
             </div>
             <hr className='my-5 border border-slate-300' />

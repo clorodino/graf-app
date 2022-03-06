@@ -1,0 +1,156 @@
+[
+	{
+		"_id": {
+			"$oid": "62068a606e3f8eed6d4056bd"
+		},
+		"title": "Club de lectura Can Fabra",
+		"guests": "Laura Pérez",
+		"location": "Biblioteca Ignasi Iglésias-Can Fabra",
+		"description": "Laura Pérez, autora de Ocultos y Tótem, visita el club de lectura de la Biblioteca Can Fabra para compartir las claves de su obra gráfica con la audiencia.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590233/graf/club-lectura_pzgezj.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/club-lectura-port_lq9ofz.jpg",
+		"date": {
+			"$date": "2022-03-12T11:00:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "6206900c6e3f8eed6d4056bf"
+		},
+		"title": "Cómics de extrarradio",
+		"guests": "Jaime Martín, Rosa Codina, Aroha Travé, Alfons López",
+		"location": "Espai Bota",
+		"description": "El cómic siempre ha tenido una relación especial con lo popular. En esta mesa reunimos a varias generaciones de autores y autoras para hablar de cómo han reflejado la vida en los barrios de extrarradio de Barcelona.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/extrarradio_rxt59c.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/extrarradio-port_lki81l.jpg",
+		"date": {
+			"$date": "2022-03-12T16:00:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620cab6febeaea85a4a15799"
+		},
+		"title": "Una conversación iluminada",
+		"guests": "Lorenzo Montatore",
+		"location": "Espai Bota",
+		"description": "Lorenzo Montatore es un autor único, que mezcla tradición en vanguardia en obras como La mentira por delante o Queridos difuntos. En esta charla desvelaremos todas sus referencias y estrategias narrativas.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/montatore_jizgal.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586828/graf/montatore-port_ivtdny.jpg",
+		"date": {
+			"$date": "2022-03-12T17:30:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620f1238ebae121392c2f85f"
+		},
+		"title": "Encuentro con la Asociación de Profesionales del Cómic",
+		"guests": "Horacio Altuna, Fernando Blanco, Marina Vidal y Adrián Bago",
+		"location": "Espai Bota",
+		"description": "Presentación de la recientemente creada Asociación de Profesionales del Cómic, una iniciativa necesaria en el actual panorama cultural. En representación de la misma las personas presentes charlarán sobre sus objetivos en intenciones, abiertos a cuestiones.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/APComic_ot2jxt.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586827/graf/APComic-port_huhhgs.jpg",
+		"date": {
+			"$date": "2022-03-12T18:30:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620f1583ebae121392c2f860"
+		},
+		"title": "Historias de ellas",
+		"guests": "Elizabeth Casillas, Josune Urrutia, Higinia Garay y Hélöise Guerrier",
+		"location": "Espai Bota",
+		"description": "Coincide en las librerías el lanzamiento de dos obras de interés que comparten una mirada femenina: Hoy no es el día y La palabra que empieza por A. Sus respectivas autoras y editora compartirán reflexiones.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/historias-de-ellas_etzrup.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586828/graf/historias-de-ellas-port_i0b0dr.jpg",
+		"date": {
+			"$date": "2022-03-12T12:00:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620f1b3eebae121392c2f861"
+		},
+		"title": "Master Class Elisava",
+		"guests": "Javier Olivares",
+		"location": "Por confirmar",
+		"description": "GRAF vuelve a colaborar con la Escuela Elisava para ofrecer esta master class de Javier Olivares (Las meninas, La cólera), uno de los dibujantes de cómics más interesantes y creativos del momento, con una amplia trayectoria en el campo de la ilustración.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/javier-olivares_xjcsog.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586828/graf/javier-olivares-port_brh7n7.jpg",
+		"date": {
+			"$date": "2022-03-13T11:00:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620f1b3eebae121392c2f862"
+		},
+		"title": "Còmic en català: Taula rodona",
+		"guests": "Ramón Mas (Males Herbes), Aleix Purcel (Extinció Edicions), Jaume Barrull (Editorial Pagès) y Montserrat Terrones (Finestres)",
+		"location": "Espai Bota",
+		"description": "En los últimos años, el cómic publicado en catalán ha experimentado un boom sin precedentes. Es el momento de reunir a algunas de las editoriales que están apostando por él para analizar su situación. En els darrers anys, el còmic publicat en català ha experimentat un boom sense precedents. És el moment de reunir algunes de les editorials que hi estan apostant per analitzar la seva situació.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/comic-catala_cdwoko.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586828/graf/comic-catala-port_babf8z.jpg",
+		"date": {
+			"$date": "2022-03-13T12:00:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620f1b3eebae121392c2f863"
+		},
+		"title": "Old skull vs niu andergraun",
+		"guests": "Mariano Pardo, Pablo Taladro, Furillo e Irene Márquez",
+		"location": "Espai Bota",
+		"description": "Underground significa ruptura, ignorar los límites, pasarse de rosca y señalar siempre al poder. En esta mesa propones un diálogo entre la vieja y la nueva guardia, para hablar de cómo ha evolucionado la vertiente más subversiva del cómic.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/old-skull_ejh9hd.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586828/graf/old-skull-port_xzbjan.jpg",
+		"date": {
+			"$date": "2022-03-13T16:00:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620f1b3eebae121392c2f864"
+		},
+		"title": "Precariedad virtual: Encuentro con Marta Cartu",
+		"guests": "Marta Cartu",
+		"location": "Espai Bota",
+		"description": "Marta Cartu, autora del cartel de #GRAFBCN2022, es una de las más inquietas voces de la autoedición. Su último cómic, Hola Siri, se sumerge en los problemas de toda una generación.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/marta-cartu_bzncyb.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586828/graf/marta-cartu-port_llyhju.jpg",
+		"date": {
+			"$date": "2022-03-13T17:30:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620f1b3eebae121392c2f865"
+		},
+		"title": "Fragmentos de vida: cómic experimental y costumbrismo",
+		"guests": "Nadia Hafid, Marta Cartu, Carmen B. Mikelarena y Andrés Tena",
+		"location": "Espai Bota",
+		"description": "¿Cómo narrar el día a día desde una estética rupturista? ¿Cómo combinar la gráfica experimental con el slice of life? De todo eso y más se debatirá en esta mesa redonda que reúne a algunos de los jóvenes talentos más prometedores del panorama actual.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/fragmentos-vida_wzhna7.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586827/graf/fragmentos-vida-port_vhdze7.jpg",
+		"date": {
+			"$date": "2022-03-13T18:00:00Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "620f1b3eebae121392c2f866"
+		},
+		"title": "Una tarde con Maganta. Encuentro con Lola Lorente",
+		"guests": "Lola Lorente",
+		"location": "Espai Bota",
+		"description": "El regreso a casa, la deriva vital, la angustia de toda una generación… De todo eso trata el nuevo cómic de Lola Lorente, Maganta, su regreso al medio tras diez años de silencio. De todo ello hablaremos en este encuentro.",
+		"imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646590232/graf/maganta_gidoz3.jpg",
+		"imgUrlPort": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646586828/graf/maganta-port_pasbx7.jpg",
+		"date": {
+			"$date": "2022-03-13T17:30:00Z"
+		}
+	}
+]
