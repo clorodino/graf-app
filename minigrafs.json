@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "62250bbdb42864906f31ae63"
+  },
+  "activity": "Taller Superpatata",
+  "author": "Artur Laperla",
+  "date": {
+    "$date": "2022-03-12T11:00:00Z"
+  },
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646595593/graf/workshops/tallersuperpatata-1_kbqtsg.jpg",
+  "location": "espacio minigraf"
+},{
+  "_id": {
+    "$oid": "62250bbdb42864906f31ae64"
+  },
+  "activity": "Taller",
+  "author": "Jorge Parras",
+  "date": {
+    "$date": "2022-03-12T12:30:00Z"
+  },
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646595592/graf/workshops/cartell-JORGE-PARRAS-GRAF_inksfx.jpg",
+  "location": "espacio minigraf"
+},{
+  "_id": {
+    "$oid": "62250bbdb42864906f31ae65"
+  },
+  "activity": "Taller de fanzines",
+  "author": "Lorenzo Montatore",
+  "date": {
+    "$date": "2022-03-12T16:30:00Z"
+  },
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646595592/graf/workshops/CARTELLLORENZO_lfuclr.jpg",
+  "location": "espacio minigraf"
+},{
+  "_id": {
+    "$oid": "62250bbdb42864906f31ae66"
+  },
+  "activity": "Taller",
+  "author": "Laura Endy",
+  "date": {
+    "$date": "2022-03-13T11:00:00Z"
+  },
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646595592/graf/workshops/CARTELLGRAFLAURAENDY_zousgk.jpg",
+  "location": "espacio minigraf"
+},{
+  "_id": {
+    "$oid": "62250bbdb42864906f31ae67"
+  },
+  "activity": "Taller",
+  "author": "Mar Mascaró",
+  "date": {
+    "$date": "2022-03-13T12:30:00Z"
+  },
+  "imgUrl": "https://res.cloudinary.com/dtgwzogvc/image/upload/v1646595592/graf/workshops/taller-mar-mascaro_os6jar.jpg",
+  "location": "espacio minigraf"
+}]

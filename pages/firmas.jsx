@@ -30,7 +30,7 @@ export default function Firmas({ firmas }) {
 				{sortedSignatures.map(firma => (
 					<div key={firma._id} className='max-w-md overflow-hidden mt-5 mx-4 pb-2 flex border-b-2 border-slate-300'>
 						<div>
-							<img className='rounded-full w-24 h-24 object-cover' src={firma.imgUrl} alt={`taller: ${firma.title}`} />
+							<img className='rounded-md w-24 h-24 object-cover' src={firma.imgUrl} alt={`taller: ${firma.title}`} />
 						</div>
 						<div className='px-6 pb-4'>
 							<div className='font-bold text-xl'>{firma.author}</div>
@@ -41,7 +41,7 @@ export default function Firmas({ firmas }) {
 								</div>
 								<div className='flex items-center'>
 									<HiOutlineCalendar className='color-icons' />
-									<p className='text-sm text-slate-400 font-medium mx-1'>{firma.date.toLocaleDateString('es-ES', day)}</p>
+									<p className='text-sm text-slate-400 font-medium mx-1'>{firma.date.toLocaleDateString('es-ES')}</p>
 								</div>
 								<div className='flex items-center'>
 									<HiOutlineClock className='color-icons' />

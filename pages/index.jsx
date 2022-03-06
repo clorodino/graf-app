@@ -9,9 +9,10 @@ export default function index() {
 	const list = [
 		{ title: 'Actividades' },
 		{ title: 'Talleres' },
-		{ title: 'Mapa' },
 		{ title: 'Firmas' },
-		{ title: 'FAQ' },
+		{ title: 'Mini Graf' },
+		{ title: 'Exposiciones' },
+		{ title: 'Mapa' },
 	]
 	return (
 		<div className='max-w-md bg-white'>
@@ -26,7 +27,7 @@ export default function index() {
 			<div className='px-3 h-home-card flex flex-col pb-2 pt-4 mx-1'>
 				{list.map((item, index) => (
 					
-					<Link href={`/${item.title.toLowerCase()}`} passHref key={index}>
+					<Link href={`/${item.title.toLowerCase().split(" ").join("-")}`} passHref key={index}>
 						{/* <Card color='primary' bordered='false' clickable key={item.title} className='py-6 my-2 bg-white'>
 							<Text className='text-center' css={{ fontWeight: '$bold', color: '$black' }} transform='capitalize'>
 								{item.title} 
