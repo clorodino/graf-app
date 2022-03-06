@@ -10,8 +10,8 @@ export default function index() {
 		{ title: 'Actividades' },
 		{ title: 'Talleres' },
 		{ title: 'Firmas' },
-		{ title: 'Mini Graf' },
 		{ title: 'Exposiciones' },
+		{ title: 'Mini Graf' },
 		{ title: 'Mapa' },
 	]
 	return (
