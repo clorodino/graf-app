@@ -10,7 +10,7 @@ import Image from 'next/image'
 export default function Taller({taller}) {
 
   const day = { weekday: 'long',  month: 'long', day: 'numeric',minimumIntegerDigits: 2 };
-  const hour =`${taller.date.getHours().toLocaleString(undefined, {minimumIntegerDigits: 2})}:${taller.date.getMinutes().toLocaleString(undefined, {minimumIntegerDigits: 2})} h`
+  const hour =`${(taller.date.getHours()-1).toLocaleString(undefined, {minimumIntegerDigits: 2})}:${taller.date.getMinutes().toLocaleString(undefined, {minimumIntegerDigits: 2})} h`
 
   return (
     <div>

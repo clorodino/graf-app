@@ -25,11 +25,11 @@ export default function Workshops({ workshops }) {
 						</a>
 				</Link>
 
-				{sortedWorkshops.map(({ _id, title, description, teacher, imgUrl }) => (
+				{sortedWorkshops.map(({ _id, title, description, teacher, imgUrlPort }) => (
 					<Link href={`/talleres/${_id}`} passHref key={_id} >
 						<div className='max-w-md rounded-lg overflow-hidden shadow-lg mt-4 mx-4' >
                             <div className='h-64 overflow-hidden'>
-    							<img className='w-full object-contain' src={imgUrl} alt={`taller: ${title}`} />
+    							<img className='w-full object-contain' src={imgUrlPort} alt={`taller: ${title}`} />
                             </div>
 							<div className='px-6 py-4 bg-white'>
 								<div className='font-bold text-xl'>{title}</div>

@@ -45,7 +45,7 @@ export default function Firmas({ firmas }) {
 								</div>
 								<div className='flex items-center'>
 									<HiOutlineClock className='color-icons' />
-									<p className='text-sm text-slate-400 font-medium mx-1'>{`${firma.date.getHours().toLocaleString(undefined, {minimumIntegerDigits: 2})}:${firma.date.getMinutes().toLocaleString(undefined, {minimumIntegerDigits: 2})} h`}</p>
+									<p className='text-sm text-slate-400 font-medium mx-1'>{`${(firma.date.getHours()-1).toLocaleString(undefined, {minimumIntegerDigits: 2})}:${firma.date.getMinutes().toLocaleString(undefined, {minimumIntegerDigits: 2})} h`}</p>
 								</div>
 							</div>
 						</div>

@@ -10,7 +10,7 @@ import Image from 'next/image'
 export default function Actividad({activity}) {
 
   const day = { weekday: 'long',  month: 'long', day: 'numeric',minimumIntegerDigits: 2 };
-  const hour =`${activity.date.getHours().toLocaleString(undefined, {minimumIntegerDigits: 2})}:${activity.date.getMinutes().toLocaleString(undefined, {minimumIntegerDigits: 2})} h`
+  const hour =`${(activity.date.getHours()-1).toLocaleString(undefined, {minimumIntegerDigits: 2})}:${activity.date.getMinutes().toLocaleString(undefined, {minimumIntegerDigits: 2})} h`
 
   return (
     <div>

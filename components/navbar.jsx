@@ -12,7 +12,8 @@ export default function Navbar() {
      }
 
      return (
-          <nav className="container flex justify-between items-center px-4 py-2 mx-auto bg-slate-300 max-w-md ">
+          <nav >
+          <div className="container flex justify-between items-center px-4 py-2 mx-auto bg-rose-200 max-w-md">
                <div>
                     <Link href="/" passHref>
                          <Image
@@ -27,25 +28,26 @@ export default function Navbar() {
                     <HiOutlineMenu size={25} />
                </div>
                {/* <Button onClick={handleToggle}>{navbarOpen ? 'Close' : 'Open'}</Button> */}
-               <div className={`${ !navbarOpen ? 'hidden' : 'absolute'} list-none flex flex-col items-center bg-slate-300 opacity-90 w-screen z-10 mt-80 py-3 px-4 max-w-md inset-x-0`}>
+               </div>
+               <div className={`${ !navbarOpen ? 'hidden' : 'absolute'} list-none flex flex-col items-center bg-rose-200 opacity-80 w-screen py-3 px-4 max-w-md inset-x-0`}>
                     <div className='flex flex-col justify-end w-max text-xl font-bold text-center'>
                          <Link passHref href="/actividades">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Actividades</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Actividades</a>
                          </Link>
                          <Link passHref href="/talleres">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Talleres</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Talleres</a>
                          </Link>
                          <Link passHref href="/firmas">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Firmas</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Firmas</a>
                          </Link>
                          <Link passHref href="/exposiciones">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Exposiciones</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Exposiciones</a>
                          </Link>
                          <Link passHref href="/mini-graf">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Mini Graf</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Mini Graf</a>
                          </Link>
                          <Link passHref href="/mapa">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-teal-600 duration-300'>Mapa</a>
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Mapa</a>
                          </Link>
                     </div>
                </div>
