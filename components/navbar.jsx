@@ -46,8 +46,8 @@ export default function Navbar() {
                          <Link passHref href="/mini-graf">
                               <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Mini Graf</a>
                          </Link>
-                         <Link passHref href="/mapa">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Mapa</a>
+                         <Link passHref href="/como-llegar">
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>¿Cómo llegar?</a>
                          </Link>
                     </div>
                </div>
