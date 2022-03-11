@@ -8,11 +8,11 @@ import Link from 'next/link'
 export default function index() {
 	const list = [
 		{ title: 'Actividades' },
-		{ title: 'Talleres' },
 		{ title: 'Firmas' },
 		{ title: 'Exposiciones' },
 		{ title: 'Mini Graf' },
 		{ title: 'Cómo llegar' },
+		{ title: 'Talleres' },
 	]
 	return (
 		<div className='max-w-md bg-rose-200'>

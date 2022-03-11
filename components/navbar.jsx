@@ -34,9 +34,6 @@ export default function Navbar() {
                          <Link passHref href="/actividades">
                               <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Actividades</a>
                          </Link>
-                         <Link passHref href="/talleres">
-                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Talleres</a>
-                         </Link>
                          <Link passHref href="/firmas">
                               <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Firmas</a>
                          </Link>
@@ -48,6 +45,9 @@ export default function Navbar() {
                          </Link>
                          <Link passHref href="/como-llegar">
                               <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>¿Cómo llegar?</a>
+                         </Link>
+                         <Link passHref href="/talleres">
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Talleres</a>
                          </Link>
                     </div>
                </div>
