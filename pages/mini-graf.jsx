@@ -28,7 +28,7 @@ export default function miniGraf({ miniGrafs }) {
 						</a>
 				</Link>
 				<div className='flex justify-center max-w-md overflow-hidden mt-5 mx-4 pb-6 flex border-b-2 border-slate-300'>
-					<Link passHref href={`mailto:`}>
+					<Link passHref href={`mailto: minigraf@grafcomic.com`}>
                 		<button className='bg-slate-300 py-2 px-6 rounded-full font-bold'>Inscribete aquí</button>
               		</Link>
 				</div>

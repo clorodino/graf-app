@@ -41,7 +41,7 @@ export default function Taller({taller}) {
               </div>
             </div>
             <div className='pt-4 flex justify-between items-center'>
-              {taller.price === 0 ? <div></div> :  <div className='text-lg font-bold text-slate-500'>Precio: {taller.price} €</div>}
+              {taller.price === 0 ? <div>Gratis</div> :  <div className='text-lg font-bold text-slate-500'>Precio: {taller.price} € *<br /><div className='text-sm text-slate-400'>*Sólo efectivo</div> </div>}
              
               {!taller.full ? (<Link passHref href={`mailto:${taller.email}`}>
                 <button className='bg-slate-300 py-2 px-6 rounded-full font-bold'>Inscribirme</button>

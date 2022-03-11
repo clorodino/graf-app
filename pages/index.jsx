@@ -11,6 +11,7 @@ export default function index() {
 		{ title: 'Firmas' },
 		{ title: 'Exposiciones' },
 		{ title: 'Mini Graf' },
+		{ title: 'Stands' },
 		{ title: 'Talleres' },
 		{ title: 'Cómo llegar' },
 	]
