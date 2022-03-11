@@ -40,6 +40,9 @@ export default function Navbar() {
                          <Link passHref href="/exposiciones">
                               <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Exposiciones</a>
                          </Link>
+                         {/* <Link passHref href="/stands">
+                              <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Stands</a>
+                         </Link> */}
                          <Link passHref href="/mini-graf">
                               <a type='text' className='py-2 hover:-translate-y-1 hover:scale-110 hover:text-slate-800 duration-300'>Mini Graf</a>
                          </Link>
