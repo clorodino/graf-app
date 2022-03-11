@@ -11,8 +11,8 @@ export default function index() {
 		{ title: 'Firmas' },
 		{ title: 'Exposiciones' },
 		{ title: 'Mini Graf' },
-		{ title: 'Cómo llegar' },
 		{ title: 'Talleres' },
+		{ title: 'Cómo llegar' },
 	]
 	return (
 		<div className='max-w-md bg-rose-200'>
